@@ -1,0 +1,37 @@
+/* Card.css */
+
+.card {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Admin badge */
+.card p:first-of-type {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Status styling */
+.card span {
+  font-weight: bold;
+}
