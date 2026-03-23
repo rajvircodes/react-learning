@@ -1,0 +1,36 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.color-picker-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.color-display{
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+
+  height: 300px;
+  width: 400px;;
+}
+
+h1 {
+  text-align: center;
+}
