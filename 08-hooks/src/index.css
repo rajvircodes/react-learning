@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.counter {
+  border: 1px solid black;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border:  none;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#inc {
+  background-color: green;
+}
+
+#dec {
+  background-color: red;
+} 
